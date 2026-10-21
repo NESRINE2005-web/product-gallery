@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forma — Product Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#">forma<span>.</span></a>
+    <p class="nav-label">THE OBJECT COLLECTION</p>
+    <button id="themeToggle" class="theme-toggle" aria-label="Switch theme">
+      <span id="themeIcon">☾</span>
+      <span id="themeLabel">Dark mode</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">DESIGNED FOR EVERYDAY LIVING</p>
+      <h1>Good design.<br><span>Better living.</span></h1>
+      <p class="hero-text">
+        Thoughtfully selected objects that bring beauty,
+        simplicity, and purpose to your everyday life.
+      </p>
+    </section>
+
+    <section class="gallery" aria-label="Featured products">
+      <article class="product-card fade-in">
+        <div class="product-image image-one">
+          <span class="tag">BESTSELLER</span>
+          <img
+            src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=85"
+            alt="Minimalist wireless headphones">
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="category">AUDIO · 01</p>
+            <h2>Studio Headphones</h2>
+            <p class="description">Sound that moves you.</p>
+          </div>
+          <div class="product-bottom">
+            <span class="price">$129</span>
+            <button class="favorite" aria-label="Add Studio Headphones to favorites">♡</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card fade-in">
+        <div class="product-image image-two">
+          <span class="tag">NEW ARRIVAL</span>
+          <img
+            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85"
+            alt="Elegant minimalist wristwatch">
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="category">ACCESSORIES · 02</p>
+            <h2>Classic Watch</h2>
+            <p class="description">Timeless in every detail.</p>
+          </div>
+          <div class="product-bottom">
+            <span class="price">$185</span>
+            <button class="favorite" aria-label="Add Classic Watch to favorites">♡</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card fade-in">
+        <div class="product-image image-three">
+          <span class="tag">EDITOR'S PICK</span>
+          <img
+            src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=800&q=85"
+            alt="Modern designer chair">
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="category">HOME · 03</p>
+            <h2>Modern Lounge</h2>
+            <p class="description">Your space, reimagined.</p>
+          </div>
+          <div class="product-bottom">
+            <span class="price">$249</span>
+            <button class="favorite" aria-label="Add Modern Lounge to favorites">♡</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <p>LESS, BUT BETTER.</p>
+      <p>© 2026 FORMA STUDIO</p>
+    </footer>
+  </main>
+</body>
+</html>
